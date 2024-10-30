@@ -1,0 +1,18 @@
+    1  sudo apt-get update && sudo apt-get install -y python3-venv
+    2  python3 -m venv venv
+    3  source venv/bin/activate
+    4  python3 -m venv venv
+    5  sudo apt-get update && sudo apt-get install -y python3-venv
+    6  udo apt-get install -y python3-venv
+    7  sudo apt-get install -y python3-venv
+    8  python3 -m venv venv
+    9  source venv/bin/activate
+   10  which python
+   11  pip install jake
+   12  jake
+   13  git clone https://github.com/maciel-j/ycuer-flask-hitcounter.git
+   14  cd ycuer-flask-hitcounter
+   15  pip install -r requirements.txt
+   16  jake ddt
+   17  git config --global user.email "jose.s.maciel@outlook.com" && git config --global user.name "maciel-j" && git config --list
+   18  history >> history.txt && MSG="FEAT: jake scanning 2024.10.29" && git add . && git commit -m "${MSG}"&& git push
